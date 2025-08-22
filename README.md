@@ -1,19 +1,23 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# Window Size Tracker
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+A simple, lightweight web application built with **React** that tracks and displays the real-time dimensions of your browser window.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Fullstack Developer Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+This project was created as a hands-on exercise to practice two fundamental React hooks:
 
-- [Our courses](https://scrimba.com/courses)
-- [The Frontend Career Path](https://scrimba.com/fullstack-path-c0fullstack)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+* `useState`: To manage the state of the window's width and height.
 
-Happy Coding!
+* `useEffect`: To handle the side effect of adding and removing an event listener for the `resize` event, ensuring the application is performant and avoids memory leaks.
+
+## Live Demo
+
+You can see the application in action here:
+
+[**https://window-size-tracker.vercel.app/**](https://window-size-tracker.vercel.app/)
+
+## How to Use
+
+1. Open the live demo link in your browser.
+
+2. Resize your browser window (by dragging its edges or corners).
+
+3. Watch as the displayed width and height values update instantly.
